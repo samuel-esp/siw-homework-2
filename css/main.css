@@ -22,20 +22,69 @@ html {
 }
 
 #inlinepair {
-  #border: 1px solid blue;
+  border: 1px solid blue;
+  padding-left: 30px;
 }
 #address {
+  padding-left: 30px;
   display: inline-block;
-  width: 225px;
-  #border: 1px solid red;
+  border: 1px solid red;
+  width: auto;
+  width: 15%;
 }
+
+#sezioni-tesi{
+  #border: 1px solid blue;
+  padding-left: 25%;
+  padding-right: 25%;
+  padding-top: 15px;
+}
+
+
+h1.name{
+  color: darkblue;
+}
+
+h1.corsi-tesi{
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 2px;
+}
+
+h1.titolo-sottopagine{
+  text-align: center;
+  font-size: 65px;
+  padding-top: 50px;
+}
+
+h1.corsi-tesi{
+  padding-bottom: 10px;
+}
+
+h2.sottotitolo{
+  padding-bottom: 10px;
+  #border: 1px solid blue;
+}
+
+h3.anno-accademico{
+  color: red;
+}
+
+hr.separator{
+  height: 10px;
+  width: 65%;
+  background-color: orangered;
+  border-color: orangered;
+}
+
 #activities {
   background-color: lightgray;
   vertical-align:top;
-  width: 700px;
   display: inline-block;
+  width: 80%;
   border: 1px solid darkblue;
   padding-right: 30px;
+  padding-left: 15px;
 }
 
 a{
@@ -64,13 +113,22 @@ strong{
 }
 
 ul{
-  margin-top: 0;
+  padding-top: 0;
   margin-bottom: 8px;
+}
+
+ul.sottopagina{
+  padding-top: 0;
+  #border: 1px solid orangered;
 }
 
 h1{
   margin: 0;
   font-size: 40px;
+}
+
+li.sottopagina{
+  padding-top: 0;
 }
 
 strong{
@@ -90,14 +148,6 @@ strong{
   text-shadow: none;
 }
 
-hr {
-  display: block;
-  height: 1px;
-  border: 0;
-  border-top: 1px solid #ccc;
-  margin: 1em 0;
-  padding: 0;
-}
 
 img{
   max-width: 50%;
