@@ -5,10 +5,10 @@ Replica del sito del professore, eseguire preferibilimente in ambiente Intellij 
 
 Contiene la pagina con la biografia del professore, le attivita' di ricerca, i riconoscimenti e i collegamenti a corsi.html e tesi.html
 
-#### 1) Corsi.html
+#### 2) Corsi.html
 
 Contiene la lista con i corsi erogati negli ultimi due anni accademici
 
-#### 1) Tesi.html
+#### 3) Tesi.html
 
 Contiene la lista con le tesi offerte
